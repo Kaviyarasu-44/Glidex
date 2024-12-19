@@ -1,0 +1,236 @@
+#nav{
+    color: aliceblue;
+    margin-left: 30px;
+    
+}
+#nav:hover{
+    color:  blueviolet;;
+}
+.sebu{
+    color:  blueviolet;
+    border-radius: 10px;
+}
+.sebu:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#im{
+    animation-name: ar;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes ar{
+    0% {
+        scale: 100%;
+      }
+      50% {
+        scale: 110%;
+      }
+      100% {
+        scale: 100%;
+      }
+    }
+
+    #navi{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 999;
+    }
+    #sec1text{
+        position: absolute;
+        bottom: 60px;
+        left: 400px;
+        color: aliceblue;
+        text-align: center;
+        
+    }
+
+    #sec2text{
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        color: aliceblue;
+        text-align: center;
+    }
+    #sec3text{
+        position: absolute;
+        bottom: 100px;
+        left: 500px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    #sec4text{
+        position: absolute;
+        top: 100px;
+        left: 380px;
+        color: aliceblue;
+        text-align: center;
+    }
+    #i:hover{
+        background-image: linear-gradient(to right,#884EAA,#884EAA,#6B4ACA);
+        height: 600px;
+        width: 800px;
+    }
+
+
+    #bu1{
+        background-color: blueviolet;
+        color: aliceblue;
+        border-radius: 20px;
+        padding: 8px 15px;
+    }
+    #bu2{
+        background-color: whitesmoke;
+        color: rgb(8, 8, 8);
+        border-radius: 20px;
+        padding:  8px 15px;
+    }
+    #bu1:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    #bu2:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+   #i1,#i2,#i3,#i4,#i5,#i6{
+    height: 150px;
+    width: 150px;
+    
+   }
+
+
+   #i1:hover{
+    transform: rotate(20deg);
+}
+#i2:hover{
+    transform: rotate(30deg);
+}
+#i3:hover{
+    transform: rotate(20deg);
+}
+#i4:hover{
+    transform: rotate(20deg);
+}
+#i5:hover{
+    transform: rotate(20deg);
+}
+#i6:hover{
+    transform: rotate(20deg);
+}
+
+
+   #span{
+    margin-left: 100px;
+   }
+   #span2{
+    margin-left: 120px;
+   }
+   #i5{
+    margin-left: 118px;
+   }
+   .h{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(251, 250, 252);
+   }
+
+
+
+
+   .s2i{
+    animation-name: ar;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes ar{
+    0% {
+        scale: 100%;
+      }
+      50% {
+        scale: 110%;
+      }
+      100% {
+        scale: 100%;
+      }
+    }
+
+
+    #s3m{
+        filter: brightness(0.5);
+    }
+#s3m:hover{
+    filter: brightness(1.5);
+    
+    
+
+}
+
+#s3im2:hover{
+    transform: rotateY(180deg);
+    transition-duration: 1s;
+    background-color: #28202F; ;
+}
+/* #hi {
+    border-left: 1px solid rgb(244, 241, 241);
+    height: 80px;
+    margin-top: 30px;
+    margin-right: 5px;
+} */
+
+#s4{
+    color: white;
+    background-image: linear-gradient(to right,#884EAA,#6B4ACA,#884EAA);
+}
+#s4:hover{
+    color: white;
+    background-image: linear-gradient(to right,#884EAA,#884EAA,#6B4ACA);
+}
+
+.ct:hover{
+    color: blueviolet;
+}
+
+#sp1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+#sp2{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
